@@ -4,7 +4,9 @@ Al ignorar archivos como .env y vendor al subir el proyecto al repositorio, es n
 
 Así mismo, se debe ejecutar el comando de las migraciones.
 
-En el caso de que ocurra un error con la petición del csrf-token lo que recomiendo hacer es cambiar los puertos tanto del proyecto frontend como del proyecto backend. Este error ocurre por que los puertos están ocupados y envía esa petición a un proyecto distinto.
+En el caso de que ocurra un error con la petición del csrf-token lo que recomiendo hacer es cambiar los puertos tanto del proyecto frontend como del proyecto backend. Este error ocurre porque los puertos están ocupados y envía esa petición a un proyecto distinto.
+
+En el archivo .env.example está la configuración del proyecto 
 
 ## Install the dependencies
 ```bash
