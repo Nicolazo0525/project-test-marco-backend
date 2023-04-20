@@ -11,8 +11,6 @@ En el archivo .env.example está la configuración del proyecto
 ## Install the dependencies
 ```bash
 composer install
-# and
-npm install
 ```
 
 ### Execute Migrations
